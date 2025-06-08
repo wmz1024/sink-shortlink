@@ -1,9 +1,9 @@
 <template>
-  <main class="flex flex-col justify-center">
-    <HomeTwitter />
-    <HomeHero />
-    <HomeFeatures />
-    <HomeLogos />
-    <HomeCta />
-  </main>
+  <div></div>
 </template>
+
+<script setup>
+if (process.client) {
+  window.location.href = 'https://home.awa.gs/?ref=awa'
+}
+</script>
