@@ -21,11 +21,7 @@ const { title, github } = useAppConfig()
             <span
               class="flex items-center justify-center w-8 h-8 rounded-full"
             >
-              <img
-                src="/sink.png"
-                :alt="title"
-                class="w-full h-full rounded-full"
-              >
+              AwA.gs
             </span>
             <span class="mx-2">{{ title }}</span>
           </a>
@@ -47,11 +43,7 @@ const { title, github } = useAppConfig()
               <span
                 class="flex items-center justify-center w-8 h-8 text-white bg-gray-900 rounded-full"
               >
-                <img
-                  src="/sink.png"
-                  :alt="title"
-                  class="w-full h-full rounded-full"
-                >
+                AwA.gs
               </span>
               <span class="mx-2">{{ title }}</span>
             </a>
